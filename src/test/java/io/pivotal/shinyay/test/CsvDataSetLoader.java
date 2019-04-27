@@ -1,4 +1,4 @@
-package com.example.demo;
+package io.pivotal.shinyay.test;
 
 import com.github.springtestdbunit.dataset.AbstractDataSetLoader;
 import org.dbunit.dataset.IDataSet;

@@ -1,4 +1,4 @@
-package com.example.demo;
+package io.pivotal.shinyay.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.example.demo;
+package io.pivotal.shinyay.test;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;

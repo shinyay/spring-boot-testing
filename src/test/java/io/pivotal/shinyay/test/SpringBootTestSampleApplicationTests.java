@@ -1,4 +1,4 @@
-package com.example.demo;
+package io.pivotal.shinyay.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
