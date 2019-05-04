@@ -1,6 +1,5 @@
 package io.pivotal.shinyay.test;
 
-import com.example.demo.*;
 import io.pivotal.shinyay.test.*;
 import org.junit.Before;
 import org.junit.Test;
