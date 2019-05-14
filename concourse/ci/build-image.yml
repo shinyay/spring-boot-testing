@@ -1,0 +1,21 @@
+---
+platform: linux
+
+image_resource:
+  type: registry-image
+  source: {repository: concourse/builder-task}
+
+inputs:
+- name: concourse-docker
+- name: linux-rc
+
+outputs:
+- name: image
+
+params:
+  DOCKERFILE: concourse-docker/Dockerfile
+  REPOSITORY: concourse/concourse-rc
+  CONTEXT: .
+
+run:
+  path: build
