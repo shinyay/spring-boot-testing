@@ -3,4 +3,6 @@ applications:
 - name: spring-test-demo
   memory: 1G
   random-route: true
+  buildpacks:
+    - java_buildpack_offline
   path: build/libs/testing-0.0.1-SNAPSHOT.jar
